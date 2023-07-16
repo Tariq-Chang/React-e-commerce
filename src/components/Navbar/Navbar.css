@@ -1,0 +1,44 @@
+.navbar__container{
+    background:#2c2c2c;
+    color:#fff;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+.navbar__main{
+    width:70%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar__main > h1{
+    color:#ffa530;
+}
+.navbar__shoppingCart{
+    position:relative;
+    border:none;
+    background:transparent;
+    color:white;
+    cursor:pointer;
+}
+
+
+.cart__count{
+    position:absolute;
+    right:0;
+    top:0;
+    width:20px;
+    height:20px;
+    background:#ffa530;
+    border-radius:50px;
+    color:#000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
